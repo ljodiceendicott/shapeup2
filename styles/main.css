@@ -6,12 +6,19 @@
 body{
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 100%;
-    padding: 10px;
     width: 60%;
     margin: 0 auto;
-    border: 1px solid green;
+    border: 1px solid steelblue;
+    box-shadow: 5px 5px 10px 10px grey;
 }
-
+section{
+    clear: both;
+}
+header{
+border-bottom: 3px solid steelblue;
+background-image: linear-gradient(white, steelblue);
+padding: 1.5em 0;
+}
  header h2 {
     font-size: 250%;
     margin: .5em 0;
@@ -24,7 +31,11 @@ body{
      margin: .5em 0;
  }
 section h2{
-    margin:.5em 0; 
+    margin:.5em 0;
+    padding:0 1em; 
+}
+section h3{
+ padding: 0 1em;
 }
 
  header img{
@@ -34,10 +45,15 @@ section h2{
  }
  h1{
      font-size: 175%;
-     clear:both;
+     padding:0 1em;
  }
 p{
     margin:1em 0;
+    padding:0 1em;
+}
+blockquote{
+    padding: 0 2em;
+    font-style: italic;
 }
 
   /*pseudo classes for section*/
@@ -53,6 +69,7 @@ p{
  section a:active{
       color:steelblue;
  }
+
  /*pseudo classes for asside*/
 aside a{
     font-weight: bold;
@@ -71,12 +88,19 @@ aside a:hover{
     color: maroon;
 }
 aside ul{
-    line-height: 20px;
-    margin-left: 25px;
+    line-height: 25px;
+    margin-left: 3em;
+}
+aside h2{
+    padding: 0 1em;
 }
 footer{
     text-align: center;
     font-size: 80%;
     font-variant: small-caps;
-    border-top: 1px solid black;
+    border-top: 1px solid steelblue;
+    margin-top: 1.5em;
+    padding: 1.5em 0;
+    background-color: steelblue;
+    color: white;
 }
